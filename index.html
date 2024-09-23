@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Calculator</title>
+    <title>Simple Calculator with History</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -32,6 +32,13 @@
             <button id="equals" onclick="calculate()">=</button>
         </div>
     </div>
+
+    <div class="history">
+        <h3>History</h3>
+        <ul id="historyList"></ul>
+        <button onclick="clearHistory()">Clear History</button>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
